@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtpolasek/AdvancedCSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtpolasek/AdvancedCSS/issues"
+  },
+  "homepage": "https://github.com/jtpolasek/AdvancedCSS#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
