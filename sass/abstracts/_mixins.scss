@@ -28,6 +28,8 @@ $breakpoint argument choices:
 - tab-land
 - big-desktop
 
+ORDER: Base + topography > general layout + grid > page layout
+
 1em = 16px;
 rem unit doesn't work in media queries;
 divide pixel size by 16 to get em query size.
