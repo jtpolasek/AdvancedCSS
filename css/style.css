@@ -608,17 +608,43 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all .4s .2s; }
+    @media (max-width: 56.25em) {
+      .popup__content {
+        width: 85%; } }
+    @media (max-width: 37.5em) {
+      .popup__content {
+        display: relative; } }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
+    @media (max-width: 37.5em) {
+      .popup__left {
+        width: 100%;
+        position: block;
+        float: left;
+        object-fit: contain; } }
   .popup__right {
     width: 66.666667%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 56.25em) {
+      .popup__right {
+        padding: 3rem 5rem; } }
+    @media (max-width: 37.5em) {
+      .popup__right {
+        width: 100%;
+        display: block; } }
   .popup__img {
     display: block;
     width: 100%; }
+    @media (max-width: 37.5em) {
+      .popup__img {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding-bottom: 1rem; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;

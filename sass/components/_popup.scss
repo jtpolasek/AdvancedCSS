@@ -28,11 +28,27 @@
     opacity: 0;
     transform: translate(-50%, -50%) scale(.25);
     transition: all .4s .2s;
+
+    @include respond (tab-port) {
+      width: 85%;
+    }
+
+    @include respond (phone) {
+      display: relative;
+    }
   }
 
   &__left {
-    width: 33.333333%;
+    width:33.333333%;
     display: table-cell;
+
+    @include respond (phone) {
+      width: 100%;
+      position:block;
+      float: left;
+      object-fit: contain;
+      
+    }
   }
 
 
@@ -41,13 +57,35 @@
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
+
+    @include respond (tab-port) {
+      padding: 3rem 5rem;;
+    }
+
+     @include respond (phone) {
+      width: 100%;
+      display: block;
+    }
+
   }
 
   &__img {
     display: block;
     width: 100%;
+   
+   
+
+    @include respond (phone) {
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      float:left;
+      padding-bottom: 1rem;
+    }
+  
   }
 
+  
   &__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
