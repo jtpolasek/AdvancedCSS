@@ -13,6 +13,8 @@ height: 52rem;
     top: 0;
     left: 0;
     width: 100%;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 3px;
 
